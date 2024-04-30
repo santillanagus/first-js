@@ -248,3 +248,73 @@ main > hr {
 .product-title {
     font-size: 20px;
 }
+
+
+/* Styles Login */
+
+.main-login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../img/back-login.jpg);
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+main > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 20px;
+    height: 290px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.647);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title {
+    padding: 15px;
+}
+
+main > form > label {
+    padding: 10px;
+}
+
+.link {
+    padding: 10px;
+}
+
+main > form > a {
+    padding: 5px;
+}
+
+#button {
+    background-color: #5cbb1f;
+    color: white;
+    box-shadow: #5bbb1fe4 0px 5px, #5bbb1f8d 0px 10px, #5bbb1f62 0px 15px, #5bbb1f24 0px 20px, #5bbb1f0c 0px 25px;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border-color: #5cbb1f;
+    margin: 10px;
+}
+
+.logo-login {
+    width: 100px;
+    margin-top: 500px;
+}
+
+.description-login {
+    color: white;
+}
+
+.button-login {
+    text-decoration: none;
+    color: white;
+}
